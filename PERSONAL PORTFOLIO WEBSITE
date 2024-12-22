@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abraham Gojjam's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #4e54c8, #8f94fb);
+            color: #fff;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            position: relative;
+        }
+        .profile-photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 20px auto;
+            border: 4px solid #fff;
+            transition: transform 0.3s;
+        }
+        .profile-photo:hover {
+            transform: scale(1.1); /* Zoom effect */
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px); /* Lift effect */
+        }
+        section {
+            padding: 40px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s, background 0.3s;
+            position: relative;
+            overflow: hidden; /* For decorative effect */
+        }
+        section:hover {
+            transform: scale(1.02); /* Slight scale on hover */
+            background: rgba(255, 255, 255, 0.2); /* Lighter background on hover */
+        }
+        h2 {
+            color: #ffdd57;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2rem;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .contact p {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            border-top: 3px solid #ffdd57;
+            border-radius: 30px 30px 0 0;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .pulse-effect {
+            animation: pulse 2s infinite; /* Pulsing effect */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 class="pulse-effect">Abraham Gojjam</h1>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Abraham Gojjam, a passionate tech enthusiast and website developer. I am currently attending grade 11 at Haddis Alemayehu Special Boarding School.</p>
+    <p>I thrive on creating innovative web solutions and am constantly exploring the latest technologies. My skills include HTML, CSS, and JavaScript, and I'm always eager to learn more to enhance my craft.</p>
+</section><section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact">
+        <p>If you'd like to get in touch or collaborate on a project, feel free to reach out!</p>
+        <p>Email: <a href="mailto:abrahamgojjam23@gmail.com" style="color: #ffdd57;">abrahamgojjam23@gmail.com</a></p>
+        <p>Phone: <a href="tel:+251915274445" style="color: #ffdd57;">+251915274445</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Abraham Gojjam. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
